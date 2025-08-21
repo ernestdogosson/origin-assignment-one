@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: inter, Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #7c16dc;
+}
+
+.wrapper,
+.hero-sub {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.notes {
+  width: 60%;
+}
+
+.hero {
+  padding: 70px 70px 70px 0;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #5809a1;
+}

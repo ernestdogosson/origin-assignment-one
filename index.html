@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introduction to HTML</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/index.css">
   </head>
   <body>
+    <div class="hero">
+      <div class="hero-sub">
+        <p>Checklist of Completed Modules</p>
+      </div>
+    </div>
     <div class="wrapper">
-      <h1>Checklist of Completed Modules</h1>
       <h2>Lesson one</h2>
       <div>
-        <input type="checkbox" name="lesson-one-01" id="" />
-        <label for="lesson-one-01"><strong>Introduction To HTML</strong></label>
+        <form action="">
+          <input type="checkbox" name="lesson-one-01" id="" />
+          <label for="lesson-one-01"><strong>Introduction To HTML</strong></label>
+        </form>
         <div class="notes">
           <p>
             We covered what HTML  is, which is a hyper markup language use to create the structure and render text unto a website. We also covered the basic structure of a web page and other elements and tags. below is list of some of the tags.
@@ -32,8 +41,10 @@
         </div>
       </div>
       <div>
-        <input type="checkbox" name="lesson-one-02" id="">
-        <label for="lesson-one-02"><strong>Introduction to Git</strong></label>
+        <form action="">
+          <input type="checkbox" name="lesson-one-02" id="">
+          <label for="lesson-one-02"><strong>Introduction to Git</strong></label>
+        </form>
         <div class="notes">
           <p>
             This was a bit challenging as a bit more technical topics were covered. We basically downloaded git and created a github account. We covered repository creation, how initialize file tracking, pull and add commits. We also saw to working in teams is facilitated through main and branch repos. Repository cloning was also covered and som commit best practices too. The main commands to keep in mind are:
