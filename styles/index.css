@@ -9,6 +9,9 @@ body {
   font-family: inter, Arial, Helvetica, sans-serif;
   color: #fff;
   background-color: #7c16dc;
+  background-image: url(/images/maple-leaf-black-3840x2160-13098.jpg);
+  object-fit: cover;
+  object-position: center;
 }
 
 .wrapper,
@@ -22,8 +25,48 @@ body {
 }
 
 .hero {
-  padding: 70px 70px 70px 0;
-  font-size: 3rem;
-  font-weight: bold;
   background-color: #5809a1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-sub {
+  font-size: 3rem;
+  padding: 70px 70px 70px 0;
+  font-weight: bold;
+}
+
+nav {
+  width: 40%;
+  padding-bottom: 50px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  border: solid 0.5px #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  font-size: 1.3rem;
+  list-style-type: none;
+  flex: 1;
+  margin: 0;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #7c16dc;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
