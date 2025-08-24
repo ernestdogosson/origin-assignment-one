@@ -1,0 +1,37 @@
+nav {
+  width: 40%;
+  max-width: fit-content;
+  border-radius: 8px;
+  border: solid 1px #fff;
+  margin-bottom: 50px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li,
+a {
+  font-size: 1.3rem;
+  list-style-type: none;
+  flex: 1;
+  margin: 0;
+  padding: 0.5em 1em;
+  text-align: center;
+  transition: 0.15s;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #7c16dc;
+  border-radius: 5px;
+}

@@ -17,6 +17,7 @@ body {
 .wrapper,
 .hero-sub {
   width: 80%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -36,37 +37,4 @@ body {
   font-size: 3rem;
   padding: 70px 70px 70px 0;
   font-weight: bold;
-}
-
-nav {
-  width: 40%;
-  padding-bottom: 50px;
-}
-
-nav > ul {
-  display: flex;
-  align-items: center;
-  border: solid 0.5px #fff;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-nav > ul > li {
-  font-size: 1.3rem;
-  list-style-type: none;
-  flex: 1;
-  margin: 0;
-  padding: 0.5em 1em;
-  text-align: center;
-}
-
-a:hover {
-  background-color: #fff;
-  color: #7c16dc;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
