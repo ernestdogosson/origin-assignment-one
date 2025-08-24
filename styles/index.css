@@ -23,7 +23,11 @@ body {
 
 .hero {
   padding: 70px 70px 70px 0;
-  font-size: 3rem;
+
   font-weight: bold;
   background-color: #5809a1;
+}
+
+.hero-sub {
+  font-size: 3rem;
 }
